@@ -1,0 +1,48 @@
+main {
+  width:;
+}
+body{
+  margin: 0;
+}
+.head {
+  background-color: silver;
+  display: flex;
+  justify-content: space-between;
+  bor
+}
+span {
+  margin-right: 72px;
+  margin-top: 20px;
+}
+.grid {
+  margin: 2%;
+  display: grid;
+  grid-template-rows: 38px repeat(6, 1fr);
+  grid-template-columns: repeat(7, 1fr);
+  grid-gap: 10px;
+}
+.grid-cell,
+.day {
+  background-color: lightslategray;
+  border-radius: 10px;
+  padding: 10px 20px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.grid-cell p,
+.day p {
+  color: azure;
+  font-size: 20px;
+  font-weight: 500;
+  justify-self: center;
+  align-self: center;
+}
+
+.day {
+  background-color: lightsteelblue;
+}
+.head p {
+  font-size: 20px;
+  margin-left: 72px;
+}
